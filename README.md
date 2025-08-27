@@ -1,1 +1,1 @@
-# Delete-duplicate-value-nodes-from-a-sorted-linked-list
+I first check if the list is empty, and if it is, I return null. Then I start with the head node and move through the list. At each step, I compare the current node with the next one. If they have the same data, I skip the next node by linking to the one after it. If not, I just move to the next node. In the end, I return the updated list without duplicates.
